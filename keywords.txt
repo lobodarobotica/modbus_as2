@@ -1,26 +1,33 @@
-ModbusMaster232	KEYWORD1
-node	KEYWORD3
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MBFunctionCode	KEYWORD1
+MBError	KEYWORD1
+MB_PDU	KEYWORD1
+MBOnData	KEYWORD1
+MBOnError	KEYWORD1
+esp32ModbusRTU	KEYWORD1
 
 
-getResponseBuffer	KEYWORD2
-clearResponseBuffer	KEYWORD2
-setTransmitBuffer	KEYWORD2
-clearTransmitBuffer	KEYWORD2
-setSlaveAddress	KEYWORD2
-send	KEYWORD2
-available	KEYWORD2
-receive	KEYWORD2
-readCoils	KEYWORD2
-readDiscreteInputs	KEYWORD2
-readHoldingRegisters	KEYWORD2
-readInputRegisters	KEYWORD2
-writeSingleCoil	KEYWORD2
-writeSingleRegister	KEYWORD2
-writeMultipleCoils	KEYWORD2
-writeMultipleCoils	KEYWORD2
-writeMultipleRegisters	KEYWORD2
-writeMultipleRegisters	KEYWORD2
-maskWriteRegister	KEYWORD2
-readWriteMultipleRegisters	KEYWORD2
-readWriteMultipleRegisters	KEYWORD2
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
 
+begin	KEYWORD2
+request	KEYWORD2
+onData	KEYWORD2
+onError	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+READ_COIL	LITERAL1
+READ_DISC_INPUT	LITERAL1
+READ_HOLD_REGISTER	LITERAL1
+READ_INPUT_REGISTER	LITERAL1
+WRITE_COIL	LITERAL1
+WRITE_HOLD_REGISTER	LITERAL1
+WRITE_MULT_COILS	LITERAL1
+WRITE_MULT_REGISTERS	LITERAL1
